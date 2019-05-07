@@ -1,0 +1,182 @@
+@-moz-document domain("artofproblemsolving.com") {
+.logo-img{
+	background-position: center !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	}
+	#top-bar{
+	height: 26px !important;
+	overflow: hidden !important;
+	top: -26px !important;
+	}
+	#header{
+	margin-top: 26px !important;
+	}
+	#breadcrumbs-wrapper{
+	background-color: #1f3d7b !important;
+	box-shadow: inset 0px 10px 10px #162b56 !important;
+	}
+	.sharedsite-links .main{
+	display: none !important;
+	}
+	/*Header menu*/
+	.menubar-label{
+	box-sizing: border-box !important;
+	color: rgb(173, 216, 230) !important;
+	float: left !important;
+	font-family: sans-serif !important;
+	font-size: 15px !important;
+	height: 26.85px !important;
+	line-height: 21.4333px !important;
+	width: 20% !important;
+	border-bottom: 5px solid gray !important;
+	text-align: center !important;
+	font-weight: bold !important;
+	}
+	/*School*/
+	.menubar-label.school{
+	border-color: #6db101 !important;
+	}
+	.menubar-label.school .menubar-label-link{
+	color: #6db101 !important;
+	}
+	/*Books*/
+	.menubar-label.store{
+	border-color: #008345 !important;
+	color: #008345 !important;
+	}
+	.menubar-label.store .menubar-label-link{
+	color: #008345 !important;
+	}
+	/*Community*/
+	.menubar-label.community{
+	border-color: #356cb5 !important;
+	}
+	.menubar-label.community .menubar-label-link{
+	color: #356cb5 !important;
+	}
+	/*Resources*/
+	.menubar-label.resources{
+	border-color: #1f3d7b !important;
+	color: #1f3d7b !important;
+	}
+	.menubar-label.resources .menubar-label-link{
+	color: #1f3d7b !important;
+	}
+	/*Other*/
+	.menubar-links-outer, .menubar-labels{
+	width: 100% !important;
+	  height: 65px !important;
+	}
+	.cart{
+	display: none !important;
+	}
+	.login-dropdown-label{
+	color: #20458c !important;
+	}
+	#top-bar .site{
+	  height: 26px !important;
+	}
+	#top-bar .site:not(.selected){
+	  background: none !important;
+	  color: white !important;
+	}
+	.site.selected{
+	  background-color: white !important;
+	  color: #20458c !important;
+	}
+	#top-bar .site:nth-child(2):before{
+	  content: "Grades 5-12: " !important;
+	}
+
+
+	#top-bar .site:nth-child(2){
+	  order: 2 !important;
+	}
+	#top-bar .site:nth-child(2) .site-icon{
+	  padding-left: 20px !important;
+	  height: 20px !important;
+	  width: 20px !important;
+	  background: url(https://web.archive.org/web/20181125210339im_/https://artofproblemsolving.com/assets/images/aops-small-icon-blue.svg) !important;
+	}
+	#top-bar .site:nth-child(2) .site-name{
+	  display: none !important;
+	}
+	#top-bar .site:nth-child(2):after{
+	  font-size: 15px !important;
+	  content: "AoPS" !important;
+	}
+	#top-bar .site:nth-child(3){
+	  order: 1 !important;
+	}
+	#top-bar .site:nth-child(3):before{
+	  content: "Grades 2-5: " !important;
+	}
+	#top-bar .site:nth-child(3) .site-icon{
+	  padding-left: 20px !important;
+	  height: 20px !important;
+	  width: 20px !important;
+	  background: url(https://web.archive.org/web/20181125210338im_/https://artofproblemsolving.com/assets/images/ba-icon-white.svg) !important;
+	}
+	#top-bar .site:nth-child(4){
+	  order: 3 !important;
+	}
+	#top-bar .site:nth-child(4):before{
+	  content: "Learning Centers: " !important;
+	}
+	#top-bar .site:nth-child(4) .site-icon{
+	  padding-left: 20px !important;
+	  height: 20px !important;
+	  width: 20px !important;
+	  background: url(https://web.archive.org/web/20181125210340im_/https://artofproblemsolving.com/assets/images/aops-small-icon-white.svg) !important;
+	}
+	#top-bar{
+	  background-color: #20458c !important;
+	  display: flex !important;
+	}
+	#main-menubar:before{
+	  position: absolute !important;
+	  content: "" !important;
+	  width: 100vw !important;
+	  bottom: 7px !important;
+	  left: 0px !important;
+	  box-sizing: initial !important;
+	  border-bottom: 5px #e2e2e2 solid !important;
+	}
+	#header *:not(.username){
+	  text-transform: capitalize !important;
+	}
+	.username{
+	  text-transform: none !important;
+	}
+
+}
+
+@-moz-document domain("artofproblemsolving.com") {
+/*SamuraiA's Code*/
+/*.selector a, .alcright{
+    background-color: hsl(161, 21%, 19%) !important;
+}*/
+.selector a.selected, .alc--sub-header{
+    background-color: #61ad00 !important;
+}
+h1, .aops-topic-name, h3, span, .current, .menu-item:hover{
+    color: #61ad00 !important;
+}
+.alc--header h1, .problem-header span, .feed-subfeed-header span, .cmty-cat-cell-aops-font-icon, .site-name, .crumb{
+    color: white !important;
+}
+.selected{
+    border-color: #61ad00 !important;
+}
+.feed-topic-forum span, .cmty-topic-posts-top span, .cmty-my-aops-nav-btn span{
+    color: #ececec !important;
+}
+.cmty-post-right span, .cmty-post-middle span, .cmty-tag-search span, .cmty-topic-cell span, .cmty-post-right span{
+    color: gray;
+}
+.login-dropdown-label span{
+    color: #1f3d7b !important;
+}
+
+}
